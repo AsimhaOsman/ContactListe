@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kontaktliste</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sNeuEintrag">Neuer Eintrag</string>
+    <string name="title_activity_activity_input_contact">ActivityInputContact</string>
+    <string name="sVorname">Vorname</string>
+    <string name="sNachname">Nachname</string>
+    <string name="sTelefon">Telefon</string>
+    <string name="sSpeichern">Speichern</string>
+    <string name="sBack">Zurück</string>
+    <string name="sBeenden">Beenden</string>
+    <string name="sHauptfunktionen">Hauptfunktionen</string>
+    <string name="sFn1">Dialog aufrufen</string>
+    <string name="sFn2">Funktion 2</string>
+    <string name="sFn3">Funktion 3</string>
+    <string name="sAlpha">Alpha</string>
+    <string name="sBeta">Beta</string>
+    <string name="sGamma">Gamma</string>
+    <string name="sOk">OK</string>
+    <string name="sKommentar">Kommentar</string>
+
+</resources>

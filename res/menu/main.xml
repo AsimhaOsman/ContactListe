@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.adaptersample.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_hauptfunktionen"
+        android:icon="@drawable/blau"
+        android:orderInCategory="500"
+        android:title="@string/sHauptfunktionen"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_funktion1"
+                android:orderInCategory="10"
+                android:title="@string/sFn1"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_funktion2"
+                android:orderInCategory="60"
+                android:title="@string/sFn2"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_funktion3"
+                android:orderInCategory="70"
+                android:title="@string/sFn3"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_beenden"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="1000"
+        android:title="@string/sBeenden"
+        app:showAsAction="always"/>
+
+</menu>
